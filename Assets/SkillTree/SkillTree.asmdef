@@ -1,0 +1,22 @@
+{
+    "name": "SkillTree",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b134867f3cd9e37428b652f97bf28b72"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "Select...",
+            "expression": "",
+            "define": ""
+        }
+    ],
+    "noEngineReferences": false
+}
