@@ -1,11 +1,17 @@
+using UnityEngine;
+
 namespace SkillTree
 {
     [System.Serializable]
     public class Skill
     {
-        public int id;
-        public int[] dependencies;
+        [SerializeField]
+        public int price = 0;
+
+        [HideInInspector]
         public bool unlocked;
-        public int price;
+
+        [HideInInspector]
+        public bool unlockable;
     }
 }

@@ -2,7 +2,7 @@ using UnityEngine;
 using NodeCanvas.Framework;
 using ParadoxNotion;
 
-namespace SkillTree.Graph
+namespace SkillTree.NodeCanvas
 {
     [GraphInfo(
         packageName = "SkillTree",
@@ -13,12 +13,12 @@ namespace SkillTree.Graph
     [CreateAssetMenu(menuName = "UGS/Skill Tree Asset")]
     public class SkillTreeGraph : Graph
     {    
-            public override System.Type baseNodeType => typeof(STNode);
-            public override bool requiresAgent => true;
-            public override bool requiresPrimeNode => true;
-            public override bool isTree => true;
-            public override bool allowBlackboardOverrides => true;
-            sealed public override bool canAcceptVariableDrops => false;
+        public override System.Type baseNodeType => typeof(STNode);
+        public override bool requiresAgent => true;
+        public override bool requiresPrimeNode => true;
+        public override bool isTree => true;
+        public override bool allowBlackboardOverrides => true;
+        sealed public override bool canAcceptVariableDrops => false;
     }
 
 }
