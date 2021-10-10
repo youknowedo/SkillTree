@@ -3,7 +3,10 @@ using ParadoxNotion;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-abstract public class STNode : Node 
+namespace SkillTree.Graph
 {
+    abstract public class STNode : Node 
+    {
 
+    }
 }

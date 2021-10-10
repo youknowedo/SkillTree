@@ -1,8 +1,11 @@
-[System.Serializable]
-public class Skill
+namespace SkillTree
 {
-    public int id;
-    public int[] dependencies;
-    public bool unlocked;
-    public int price;
+    [System.Serializable]
+    public class Skill
+    {
+        public int id;
+        public int[] dependencies;
+        public bool unlocked;
+        public int price;
+    }
 }
