@@ -7,12 +7,12 @@ using UnityEngine;
 namespace SkillTree.NodeCanvas
 {
 
-    [Name("Start")]
-    [Description("The starting node")]
-    public class StartNode : STNode
-    {
-        public override bool allowAsPrime { get { return true; } }
+    //[Name("Start")]
+    //[Description("The starting node")]
+    //public class StartNode : STNode
+    //{
+    //    public override bool allowAsPrime { get { return true; } }
 
-        public override int maxInConnections { get { return 0; } }
-    }
+    //    public override int maxInConnections { get { return 0; } }
+    //}
 }

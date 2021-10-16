@@ -15,10 +15,11 @@ namespace SkillTree.NodeCanvas
     {    
         public override System.Type baseNodeType => typeof(STNode);
         public override bool requiresAgent => true;
-        public override bool requiresPrimeNode => true;
+        public override bool requiresPrimeNode => false;
         public override bool isTree => true;
         public override bool allowBlackboardOverrides => true;
         sealed public override bool canAcceptVariableDrops => false;
+
     }
 
 }
